@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  app:
+    image: flasktest:latest
+    build:
+      context: .
+    ports:
+      - 8000:5000
+    
+
